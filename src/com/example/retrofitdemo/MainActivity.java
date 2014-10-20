@@ -64,11 +64,11 @@ public class MainActivity extends Activity {
 
 								for (int i = 0; i < list.size(); i++) {
 									ArrayList<AddDetail> list1 = list.get(i).addComponents;
-//									for (int j = 0; j < list.size(); j++) {
-//										Log.e("Name",
-//												list1.get(j).long_name);
-//										tv1.setText("Name : " + list1.get(j).long_name);
-//									}
+									for (int j = 0; j < list.size(); j++) {
+										Log.e("Name",
+												list1.get(j).long_name);
+										tv1.setText("Name : " + list1.get(j).long_name);
+									}
 									
 									String lat = list.get(i).geometry.latLng.lat;
 									String lng = list.get(i).geometry.latLng.lng;
@@ -109,11 +109,11 @@ public class MainActivity extends Activity {
 
 						for (int i = 0; i < list.size(); i++) {
 							ArrayList<AddDetail> list1 = list.get(i).addComponents;
-//							for (int j = 0; j < list.size(); j++) {
-//								Log.e("Name",
-//										list1.get(j).long_name);
-//								tv1.setText("Name : " + list1.get(j).long_name);
-//							}
+							for (int j = 0; j < list.size(); j++) {
+								Log.e("Name",
+										list1.get(j).long_name);
+								tv1.setText("Name : " + list1.get(j).long_name);
+							}
 							String lat = list.get(i).geometry.latLng.lat;
 							String lng = list.get(i).geometry.latLng.lng;
 							Log.e("Formetted Address",list.get(i).formattedAddress);
