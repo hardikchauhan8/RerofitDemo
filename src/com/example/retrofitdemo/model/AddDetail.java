@@ -1,5 +1,7 @@
 package com.example.retrofitdemo.model;
 
+import android.app.ActionBar;
+
 import com.google.gson.annotations.SerializedName;
 
 public class AddDetail {
